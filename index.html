@@ -6,11 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Розклад уроків</title>
 </head>
+<style>
+    .baba {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: #00ff99;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+button:active {
+  transform: translateY(-1px);
+}
+</style>
+
 <body>
-    <a href="ponedilok.html">Понеділок</a>
-    <a href="vivtorok.html">Вівторок</a>
-    <a href="sereda.html">Середа</a>
-    <a href="chetver.html">Четвер</a>
-    <a href="pyatnicha.html">П'ятниця</a>
+    <a href="ponedilok.html" class="baba">Понеділок</a>
+    <a href="vivtorok.html" class="baba">Вівторок</a>
+    <a href="sereda.html" class="baba">Середа</a>
+    <a href="chetver.html" class="baba">Четвер</a>
+    <a href="pyatnicha.html" class="baba">П'ятниця</a>
 </body>
 </html>
